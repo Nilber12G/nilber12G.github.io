@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Pachacutec portafolio">
+  <meta name="keywords" content="portafolio,Roani Campos, developer">
+  <meta name="author" content="RoaniCampos">
+  <meta name="google" content="notranslate" />
+  <meta property="og:title" content="Nilver 12G, web Conferencias">
+  <meta property="og:image" content="src/portfolio_img.png">
+  <meta property="og:description" content=" Hi I am Nilber Medina, businessman, technical accountant and real estate speaker.">
+  <title>Nilber 12G</title>
+  <link rel="icon" href="src/square/me_chibi.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Schoolbell&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="https://kit.fontawesome.com/e92fa48c98.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147891800-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-147891800-1');
+  </script>
+</head>
+<body class="body-page">
+  <!-- Main Hero -->
+  <section class="hero hero-princ is-fullheight">
+    <div class="hero-body">
+      <div class="lang-div">
+        <select id="lang-opt" onchange="selectLan(this)">
+          <option value="en">español</option>
+          <option value="es">english</option>
+        </select>
+      </div>
+      <div class="container hero-princ-container is-flex f-d-col center-y">
+        <img class="gif-animated" src="src/gif/funny.gif" alt="chibi gif" width="200px">
+        <div class="hero-princ-content is-flex f-d-col center-y text">
+          <h1 class="title has-text-white has-text-centered">
+            Nilber 12G
+          </h1>
+          <h2 class="subtitle has-text-grey-lighter">
+            Conferencista
+          </h2>
+        </div>
+        <div class="social-media">
+          <ul class="col is-flex">
+            <li class="li-smedia">
+              <a href="https://twitter.com/niber12g/status/1677054714448424961?s=46" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter" style="color: #1DA1F2;"></i>
+              </a>      
+            </li>
+            <li class="li-smedia">
+              <a href="https://instagram.com/nilber12g?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram" style="color: #E1306C;"></i>
+              </a>      
+            </li>
+            <li class="li-smedia">
+              <a href="https://www.facebook.com/medinanilber?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook" style="color: #3b5998;"></i>
+              </a>      
+            </li>
+            <li class="li-smedia">
+              <a href="https://www.tiktok.com/@nilbermedina12?_t=8dlw2LEOJJW&_r=1" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-tiktok" style="color: #010101;"></i>
+              </a>      
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hero-princ-footer">
+      <div class="container">
+        <ul class="menu is-flex center-x">
+          <a href="#about" class="no-deco">
+            <li class="en-opt">About</li>
+            <li class="es-opt">Acerca</li>
+          </a>
+          <li>/</li>
+          <a href="#skills" class="no-deco">
+            <li class="en-opt">Skills</li>
+            <li class="es-opt">Habilidades</li>
+          </a>
+          <li>/</li>
+          <a href="#projects" class="no-deco">
+            <li class="en-opt">Conferences</li>
+            <li class="es-opt">Conferencias</li>
+          </a>
+          <!-- <li>/</li> -->
+          <!-- <a href="#blog" class="no-deco">
+            <li>Blog</li>
+          </a> -->
+          <li>/</li>
+          <a href="#contact" onclick="toContact()" class="no-deco">
+            <li class="en-opt">Contact</li>
+            <li class="es-opt">Contacto</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="hero about" id="about">
+    <div class="columns about-columns">
+      <div class="column about col-1 is-flex center-y center-x">
+        <h1 class="title is-1 has-text-white en-opt">About</h1>
+        <h1 class="title is-1 has-text-white es-opt">Acerca de mí</h1>
+      </div>
+      <div class="column about col-2">
+        <div class="about-content">
+          <h3 class="subtitle is-3 en-opt">Hi! 👋</h3>
+          <h3 class="subtitle is-3 es-opt">Hola! 👋</h3>
+          <h5 class="subtitle is-5 en-opt">
+            I'm a Web Developer <br>
+            I am Nilber Medina, businessman, technical accountant and real estate speaker. <br>
+            <br>
+            CEO of the company Gheiros Constructora, where we develop real estate projects such as: <br>
+            - Urban qualifications <br>
+            - And construction of houses. <br>
+          </h5>
+          <h5 class="subtitle is-5 es-opt">
+            Soy Nilber Medina, empresario, contador técnico y conferencista en bienes raíces.<br>
+            <br>
+            Ceo de la empresa Gheiros Constructora, donde desarrollamos proyectos inmobiliarios como:<br>
+            - Habilitaciones urbanas <br>
+            - Y construcciones de casas. <br>
+          </h5>
+          <h6 class="subtitle is-6 en-opt">
+            I love helping thousands of families to fulfill the dream of their own lot. 
+          </h6>
+          <br>
+          <h6 class="subtitle is-6 es-opt">
+            Me encanta ayudar a miles de familias a cumplir el sueño de su lote propio. 
+          </h6>
+          <br>
+          <h6 class="subtitle is-6 en-opt">
+            I started lecturing with a purpose to change the world, <br>
+            convert many leaders and entrepreneurs. because financial education is <br>
+            what will change the future of many young people
+          </h6>
+          <h6 class="subtitle is-6 es-opt">
+            Empecé a dar conferencias con un propósito de cambiar el mundo, <br>
+            convertir muchos líderes y empresarios, porque la educación financiera es lo que<br>
+            cambiará el futuro de muchos jóvenes
+          </h6>
+          <br>
+          <img src="src/square/me.jpg" class="about-img" alt="my photo">
+          <h6 class="subtitle is-6 has-text-centered en-opt">I like this picture <i class="far fa-smile"></i></h6>
+          <h6 class="subtitle is-6 has-text-centered es-opt">Me gusta esta foto <i class="far fa-smile"></i></h6>
+          <br>
+          <!-- <h6 class="subtitle is-6 read-more" id="about-read-more" onclick="openReadMore(this.id)">
+            Read More...
+          </h6> -->
+          <div id="about-read-more-section" class="read-more-section">
+            <h5 class="subtitle is-5 en-opt">
+              So, Do you want to know more about me? 👀 
+            </h5>
+            <h5 class="subtitle is-5 es-opt">
+              Así que quieres conocerme más? 👀 
+            </h5>
+            <h6 class="subtitle is-6 en-opt">      
+              Hahaha... Okay  
+              <br>
+              Here are some things about me and curiosities. 🐭  
+            </h6>
+            <h6 class="subtitle is-6 es-opt">      
+              jajaajaja... Vale
+              <br>
+              Aquí te dejo algunas cosas sobre mí y curiosidades. 🐭  
+            </h6>
+            <h6 class="subtitle is-6 en-opt">
+              When I started in the world of programming, one of the first things I did was a small 
+              screen that opened from my computer that asked me for the password that I put in my 
+              pseudocode to open a calculator and for me it was a lot of fun. I felt like a troll 
+              asking for the password to use a simple calculator 👩🏼‍💻, after that and other things that
+              I did I started to like the tech area because you will always need learning something new, 
+              although sometimes it can be overwhelming, but at the same time fun.
+            </h6>
+            <h6 class="subtitle is-6 es-opt">
+              Cuando comencé en el mundo de la programacion, una de las primeras cosas que hice fue una pequeña
+              pantalla que se abría desde mi computadora y me preguntaba por una contraseña, la cual había 
+              puesto en mi pseudocódigo para así poder abrir una calculadora, para mí fue muy divertido porque 
+              me sentía toda troll pidiendo una contraseña para usar una simple calculadora 👩🏼‍💻, después de
+              eso y otras cosas que hice me comenzó a gustar el área de tecnología, porque siempre necesitarás 
+              aprender algo nuevo, aunque a veces puede ser abrumador, pero al mismo tiempo divertido.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="hero skills" id="skills">
+    <div class="hero-body">
+      <div class="container skills">
+        <h1 class="title is-1 has-text-centered en-opt">Topics I handle</h1>
+        <h1 class="title is-1 has-text-centered es-opt">Temas que manejo</h1>
+        <div class="container programming">
+          <h3 class="title is-3 en-opt">Real estate</h3>
+          <h3 class="title is-3 es-opt">Bienes Raíces</h3>
+          <div class="columns skills">
+            <div class="img" data-desc="Inversión">
+              <img src="src/skills/dinero.png" alt="html5 image">
+            </div>
+            <div class="img" data-desc="Casa propia">
+              <img src="src/skills/casa.png" alt="html5 image">
+            </div>
+            <div class="img" data-desc="Liderazgo">
+              <img src="src/skills/lider.png" alt="html5 image">
+            </div>
+            <div class="img" data-desc="Ventas">
+              <img src="src/skills/ventas.png" alt="html5 image">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="see-more-skills is-flex center-x">
+          <a class="button is-rounded skills-more-btn no-deco" onclick="seeMoreSkills()">
+            See More
+          </a>
+        </div> -->
+        <div class="more-skills d-none">
+          <div class="container css-libraries">
+            <h3 class="title is-3 en-opt">CSS Tools</h3>
+            <h3 class="title is-3 es-opt">Herramientas de CSS</h3>
+            <div class="columns skills">
+              <div class="img" data-desc="Bootstrap">
+                <img src="src/skills/bootstrap.png" alt="Bootstrap image">
+              </div>
+              <div class="img" data-desc="SASS">
+                <img src="src/skills/sass.png" alt="SASS image">
+              </div>
+            </div>
+          </div>
+          <div class="container css-libraries">
+            <h3 class="title is-3 en-opt">Web Sites</h3>
+            <h3 class="title is-3 es-opt">Sitios Web</h3>
+            <div class="columns skills">
+              <div class="img" data-desc="Wordpress">
+                <img src="src/skills/wordpress.png" alt="Wordpress image">
+              </div>
+              <div class="img" data-desc="Wix">
+                <img src="src/skills/wix.png" alt="Wix image">
+              </div>
+            </div>
+          </div>
+          <div class="container css-mail-mkt">
+            <h3 class="title is-3 en-opt">Mailing and MKT</h3>
+            <h3 class="title is-3 es-opt">Mailing y MKT</h3>
+            <div class="columns skills">
+              <div class="img" data-desc="Mailchimp">
+                <img src="src/skills/mailchimp.png" alt="Mailchimp image">
+              </div>
+              <div class="img" data-desc="Hubspot">
+                <img src="src/skills/hubspot.png" alt="Hubspot image">
+              </div>
+            </div>
+          </div>
+          <div class="container css-tools">
+            <h3 class="title is-3 en-opt">Tools</h3>
+            <h3 class="title is-3 es-opt">Herramientas</h3>
+            <div class="columns skills">
+              <div class="img" data-desc="Elementor">
+                <img src="src/skills/elementor.png" alt="Elementor image">
+              </div>
+              <div class="img" data-desc="GIT">
+                <img src="src/skills/git.png" alt="GIT image">
+              </div>
+              <div class="img" data-desc="AWS">
+                <img src="src/skills/amazonaws.png" alt="AWS image">
+              </div>
+              <div class="img" data-desc="Linux">
+                <img src="src/skills/linux.png" alt="Linux image">
+              </div>
+              <div class="img" data-desc="Zapier">
+                <img src="src/skills/zapier.png" alt="Zapier image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="hero projects" id="projects">
+    <div class="hero-body">
+      <div class="container projects-wrapper is-flex f-d-col center-x">
+        <h1 class="title is-1 has-text-centered en-opt">What lectures have I given?</h1>
+        <h1 class="title is-1 has-text-centered es-opt">¿Qué Conferencias he dado?</h1>
+        <div class="all-projects is-flex center-x center-y f-d-col">
+          <div class="container projects">
+            
+            <!-- Conferencia 1 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 1"
+                data-link="
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs."
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_4.jpeg" alt="Leauty web scraping image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 1
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 1"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios."
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_4.jpeg" alt="Leauty web scraping imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 1
+              </a>
+            </div>
+
+            <!-- Conferencia 2 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conference 2"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs."
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_7.jpeg" alt="Vinci - Roche Project image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 2
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 2"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios."
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_7.jpeg" alt="Proyecto Vinci - Roche imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 2
+              </a>
+            </div>
+
+            <!-- Conferencia 3 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conference 3"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs."
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_9.jpeg" alt="Krowdy Website image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 3
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 3"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios."
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_9.jpeg" alt="Krowdy Web imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 3
+              </a>
+            </div>
+
+            <!-- Conferencia 4 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conference 4"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs."
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_12.jpeg" alt="Palindrome Verification image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 4
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title=" Conferencia 4"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios."
+                >
+                <img class="project" src="src/projects/conf_12.jpeg" alt="Verificación de capicúos imagen">
+              </div>
+              <a href="h" class="no-deco" target="_blank">
+                Conferencia 4
+              </a>
+            </div>
+            
+            <!-- Conferencia 5 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conference 5"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs.🎥."
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_16.jpeg" alt="Demo Krowdy image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 5
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 5"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios. 🎥."
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_16.jpeg" alt="Demo de Krowdy imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 5
+              </a>
+            </div>
+
+            <!-- Conferencia 6 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conference 6"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs.."
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_17.jpeg" alt="Cinemark Landing image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 6
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 6"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios."
+                >
+                <img class="project" src="src/projects/conf_17.jpeg" alt="Landing de Cinemark imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 6
+              </a>
+            </div>
+
+            <!-- Conferencia 7 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="conference 7"
+                data-link=""
+                data-desc=Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs. 🐰"
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_18.jpeg" alt="Personal Blog image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                conference 7
+              </a>
+            </div>   
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 7"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios. 🐰"
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_18.jpeg" alt="Blog Personal imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 7
+              </a>
+            </div> 
+
+            <!-- Conferencia 8 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferece 8"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs. ✨"
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_21.jpeg" alt="p5.js Animations image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferece 8
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 8"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios. ✨"
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_21.jpeg" alt="Animaciones con p5.js imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 8
+              </a>
+            </div>
+
+            <!-- Conferencia 9 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conference 9"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs.✨"
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_22.jpeg" alt="p5.js Animations image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conference 9
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 9"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios. ✨"
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_22.jpeg" alt="Animaciones con p5.js imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 9
+              </a>
+            </div>
+
+            <!-- Conferencia 10 -->
+            <div class="column project has-text-centered en-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="conference 10"
+                data-link=""
+                data-desc="Many young people were encouraged to invest in real estate and fulfill their dream of owning a lot.
+                Always with the aim of training new entrepreneurs. ✨"
+                data-tools="Real Estate, financial freedom, Private investment"
+                >
+                <img class="project" src="src/projects/conf_25.jpeg" alt="p5.js Animations image">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                conference 10
+              </a>
+            </div>
+            <div class="column project has-text-centered es-opt">
+              <div 
+                class="img-container" 
+                onclick="showProject(this)" 
+                data-title="Conferencia 10"
+                data-link=""
+                data-desc="Se incentivó a muchos jovenes a invertir en bienes raíces y cumplir su sueño de lote propio.
+                Siempre con el objetivo de formar nuevos empresarios. ✨"
+                data-tools="Bienes Raíces, libertad finaciera, Inversión privada"
+                >
+                <img class="project" src="src/projects/conf_25.jpeg" alt="Animaciones con p5.js imagen">
+              </div>
+              <a href="" class="no-deco" target="_blank">
+                Conferencia 10
+              </a>
+            </div>
+            <!-- Add more... -->
+          </div>
+        </div>   
+      </div>
+    </div>
+    <div id="project-popup" class="hero project d-none">
+      <div class="hero-body is-flex center-y">
+        <a class="close project" onclick="closeProject()">&times;</a>
+        <div class="container">
+          <div class="columns">
+            <div class="column is-two-thirds is-flex center-y">
+              <a id="project-link" target="_blank">
+                <img class="img-project" id="project-img">
+              </a>
+            </div>
+            <div class="column project-desc">
+              <h4 class="title is-4" id="project-name"></h4>
+              <div class="characteristics">
+                <div class="container">
+                  <h5 class="subtitle is-5 en-opt">Issues</h5>
+                  <h5 class="subtitle is-5 es-opt">Temas tratados</h5>
+                  <ul class="lis" id="project-list">
+                  </ul>
+                </div>
+    
+                <div class="container">
+                  <h5 class="subtitle is-5 en-opt">About the conference?</h5>
+                  <h5 class="subtitle is-5 es-opt">¿Acerca de la conferencia?</h5>
+                  <h6 class="subtitle is-6" id="project-desc"></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="hero hero-contact is-fullheight stick" id="contact">
+    <div class="hero-body is-flex f-d-col">
+      <div class="container hero-contact-container is-flex f-d-col center-y center-x">
+        <div class="hero-contact-content is-flex center-y f-d-col text">
+          <h2 class="title is-2 has-text-white has-text-centered en-opt">
+            Want to get in touch?
+          </h2>
+          <h2 class="title is-2 has-text-white has-text-centered es-opt">
+            ¿Quieres ponerte en Contacto?
+          </h2>
+          <h4 class="subtitle is-4 has-text-white has-text-centered is-spaced en-opt">
+            Find me on Twitter, Instagram, Facebook o TikTok
+          </h4>
+          <h4 class="subtitle is-4 has-text-white has-text-centered is-spaced es-opt">
+            Encuentrame en Twitter, Instagram, Facebook o TikTok
+          </h4>
+        </div>
+        <div class="social-media">
+          <ul class="col is-flex center-x f-wrap">
+              <li class="li-smedia">
+                <a href="https://twitter.com/niber12g/status/1677054714448424961?s=46" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-twitter en-opt" style="color: #1DA1F2;" title="Follow me on Twitter"></i>
+                  <i class="fab fa-twitter es-opt" style="color: #1DA1F2;" title="Sígueme en Twitter"></i>
+                </a>
+              </li>
+              <li class="li-smedia">
+                <a href="https://instagram.com/nilber12g?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram en-opt" title="Follow me on Instagram" style="color: #E1306C;"></i>
+                  <i class="fab fa-instagram es-opt" title="Sígueme en Instagram" style="color: #E1306C;"></i>
+                </a>      
+              </li>
+              <li class="li-smedia">
+                <a href="https://www.facebook.com/medinanilber?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-facebook en-opt" title="Follow me on facebook" style="color: #3b5998;"></i>
+                  <i class="fab fa-facebook es-opt" title="Sígueme en facebook" style="color: #3b5998;"></i>
+                </a>      
+              </li>
+              <li class="li-smedia">
+                <a href="https://www.tiktok.com/@nilbermedina12?_t=8dlw2LEOJJW&_r=1" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-tiktok en-opt" title="Follow me on tiktok" style="color: #010101"></i>
+                  <i class="fab fa-tiktok es-opt" title="Sígueme en tiktok" style="color: #010101;"></i>
+                </a>      
+              </li>
+          </ul>
+        </div>
+        <div class="emailme">
+          <h6 class="subtitle is-6 has-text-white has-text-centered en-opt">
+            Or email me at 
+            <a href="mailto:Medinanilber@gmail.com?Subject=Hi%20Nilber!%20I%20come%20from%20your%20website" 
+              class="no-deco"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Medinanilber@gmail.com
+            </a>
+          </h6>
+          <h6 class="subtitle is-6 has-text-white has-text-centered es-opt">
+            O envíame un email a 
+            <a href="mailto:Medinanilber@gmail.com?Subject=Hola%20nilber!%20vengo%20de%20tu%20página%20web" 
+              class="no-deco"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Medinanilber@gmail.com
+            </a>
+          </h6>
+        </div>
+      </div>
+      <div class="copyrig">
+        <h6 class="subtitle is-6 has-text-white">
+          © Copyright <span id="current_year"></span>. Nilber12G
+        </h6>
+      </div>
+    </div>
+  </section>
+
+  <!-- Loader -->
+  <div id="loader_ctn">
+    <img src="src/gif/loader.svg" alt="">
+  </div>
+</body>
+<script src="js/index.js"></script>
+</html>
