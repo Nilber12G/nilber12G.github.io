@@ -33,6 +33,12 @@ body.body-page {
   --quatrocen: "Quattrocento Sans", sans-serif;
 }
 
+.thread{
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+}
+
 a {
   text-decoration: none;
   color: var(--cheerypink);
