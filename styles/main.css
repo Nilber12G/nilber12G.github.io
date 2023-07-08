@@ -32,11 +32,26 @@ body.body-page {
   --schoolbell: "Schoolbell", cursive;
   --quatrocen: "Quattrocento Sans", sans-serif;
 }
-
 .thread{
-  margin-top: 10px;
-  width: 45px;
-  height: 45px;
+  margin-top: 9px;
+  width: 47px;
+  height: 47px;
+}
+
+@media only screen and (max-width: 720px){
+  .thread{
+    margin-top: 7px;
+    width: 28.5px;
+    height: 28.5px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .thread{
+    margin-top: 7px;
+    width: 24.5px;
+    height: 24.5px;
+  }
 }
 
 a {
